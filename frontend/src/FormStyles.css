@@ -1,0 +1,76 @@
+/* General form container styling */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* MyPass heading */
+.app-heading {
+    font-size: 2.5rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+/* Form heading */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input fields */
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Submit button */
+.form-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}
+
+/* Form footer */
+.form-footer {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.form-footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Error or success messages */
+.message {
+    margin-top: 10px;
+    color: red;
+    font-size: 0.9rem;
+}
